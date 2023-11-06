@@ -1,0 +1,30 @@
+{
+	"name": "react-named-lazy",
+	"version": "0.1.0",
+	"description": "Wrapper around React.lazy to work with named exports",
+	"keywords": [
+		"react",
+		"lazy",
+		"lazily",
+		"named",
+		"export"
+	],
+	"repository": "vjee/react-named-lazy",
+	"license": "MIT",
+	"author": "vjee",
+	"sideEffects": false,
+	"type": "module",
+	"exports": {
+		"default": "./index.js",
+		"types": "./index.d.ts"
+	},
+	"main": "index.js",
+	"types": "index.d.ts",
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"peerDependencies": {
+		"react": ">=16.6"
+	}
+}
