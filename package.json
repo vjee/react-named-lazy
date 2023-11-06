@@ -9,7 +9,9 @@
 		"named",
 		"export"
 	],
-	"repository": "vjee/react-named-lazy",
+	"repository": {
+		"url": "git+https://github.com/vjee/react-named-lazy.git"
+	},
 	"license": "MIT",
 	"author": "vjee",
 	"sideEffects": false,
@@ -24,6 +26,7 @@
 		"index.js",
 		"index.d.ts"
 	],
+	"scripts": {},
 	"peerDependencies": {
 		"react": ">=16.6"
 	}
